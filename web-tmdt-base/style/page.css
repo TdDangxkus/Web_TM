@@ -1,0 +1,639 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap");
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+nav{
+    position: relative;
+}
+
+.bar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(96, 80, 144);
+}
+.bar  img{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.bar ul{
+    float: right;
+
+
+}
+.button-container {
+    display: flex;
+    width: 350px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 100px;
+    word-spacing: 20%;
+    z-index: 4;
+    
+  }
+  
+  .button {
+    outline: 0 !important;
+    border: 0 !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+  .button:hover{
+    color: #4836bb;
+  }
+        /* --hover box-- */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(96, 80, 144);
+    min-width: 100px;
+    z-index: 1;
+    margin-top: 110px;
+    border-radius: 10px !important;
+    z-index: 2;
+
+  }
+  
+  .dropdown-content a {
+    color: rgb(249, 249, 249);
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    position: relative;
+    z-index: 3;
+
+    
+    
+  }
+  
+  .dropdown-content a:hover {background-color: #99a0ed;}
+  
+  .button:hover .dropdown-content {display: block;}
+  
+  .button:hover .button {background-color: #3e8e41;}
+
+
+#myMarquee{
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    z-index: 2;
+    background-position: 0 0;
+
+} 
+/* ---add loader--- */
+.containers {
+    /* Basic dimensions and centering */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* Dark mode colors and gradient */
+    background: rgb(219, 217, 224); /* Fallback for browsers that don't support gradients */
+    background: linear-gradient(
+      135deg,
+      /* #921dec 25%,
+      #f3f3f3 25%,
+      #f3f3f3 50%,
+      #921dec 50%,
+      #921dec 75%,
+      #f3f3f3 75%,
+      #f3f3f3 */
+      
+    );
+    background-size: 40px 40px;
+  
+    /* Animation */
+    animation: move 4s linear infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 40px 40px;
+    }
+  }
+  
+  /* <!-- --add img first-- --> */
+  section{
+    position: relative;
+    margin-top: px;
+  }
+  .image{
+    width: 100%;
+    height: 700px;
+    background-color: #99a0ed;
+    position: relative;
+  }
+  .image img{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    
+  }
+.boxs{
+    width: 40%;
+    height: 350px;
+    background-color: #714b8e;
+    position: relative;
+    margin-top: -560px;
+    margin-left: 80px;
+    border-radius: 20px;
+  
+}
+.boxs h4{
+    color: white;
+    margin-left: 50px;
+}
+#childh4{
+    margin-top: -50px ;
+}
+.boxs h2{
+    color: white;
+    margin-left: 60px;
+    font-size: 70px;
+}
+    /* --add buttons-- */
+
+    .buttons {
+        --😀: #644dff;
+        --😀😀: #4836bb;
+        --😀😀😀: #654dff63;
+        cursor: pointer;
+        width: 140px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 1.125em;
+        font-weight: 800;
+        letter-spacing: 2px;
+        color: #fff;
+        background: var(--😀);
+        border: 2px solid var(--😀😀);
+        border-radius: .75rem;
+        box-shadow: 0 8px 0 var(--😀😀);
+        transform: skew(-10deg);
+        transition: all .1s ease;
+        filter: drop-shadow(0 15px 20px var(--😀😀😀));
+        margin-left: 60px;
+    }
+      
+      .buttons:active {
+        letter-spacing: 0px;
+        transform: skew(-10deg) translateY(8px);
+        box-shadow: 0 0 0 var(--😀😀😀);
+      }
+.boxs1{
+    width: 35%;
+    height: 600px;
+    background-color: #8adeff;
+    position: relative;
+    margin-top: -350px;
+    margin-left: 800px;
+    border-radius: 20px;
+    background: url(/vhu-web-tmdt/imgs/Cyber.webp);
+}
+
+.content{
+    width: 100%;
+    height: 1000px;
+    background-color: #2f2f3193;
+}
+.back{
+  width: 100%;
+  
+}
+.back p{
+   color: rgba(14, 14, 14, 0.688);
+   margin-left: 100px;
+}
+.back p a{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid;
+  margin-left: 250px;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 80%; /* Full width */
+  height: 10%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 70%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 600px){
+  .modal-content {
+    width: 50%;
+  }
+}
+
+.boxtest{
+  width: 30%;
+  height: 100px;
+  /* background-color: #3e8e41; */
+  margin-top: 20px;
+  margin-left: 250px;
+}
+.boxtest p{
+  color: white;
+}
+.name h1{
+  float: right;
+  margin-top: -500px;
+  margin-right: 500px;
+  color: white;
+}
+.name p{
+  float: right;
+  margin-top: -440px;
+  margin-right: 670px;
+  color: white;
+}
+.name h3{
+  float: right;
+  margin-top: -380px;
+  margin-right: 690px;
+  color: rgb(228, 18, 18);
+}
+#soluong{
+  float: right;
+  margin-top: -330px;
+  margin-right: 570px;
+  color: white;
+}
+#quantity{
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+/* // button // */
+.nuts{
+  margin-left: 730px;
+  margin-top: -200px;
+  position: absolute;
+}
+#tir {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+  
+ }
+
+ 
+ #tir:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+ }
+ 
+ #tir:active {
+  transform: translate(0em, 0.2em);
+ }#tir {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+ }
+ 
+ #tir:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+ }
+ 
+ #tir:active {
+  transform: translate(0em, 0.2em);
+ }
+ 
+ .product .btn1{
+  margin-left: 1010px;
+  font-size: 25px;
+  margin-top: -10px;
+  position: absolute;
+  color: white;
+
+ }
+ .product p{
+  width: 20%;
+  height: 50px;
+ 
+  margin-left: 725px;
+  margin-top: -140px;
+  color: white;
+ }
+ #myBtn3{
+  width: 20%;
+  height: 50px;
+  
+  margin-left: 725px;
+  margin-top: -140px;
+  color: white;
+ }
+ #myBtn3{
+  width: 20%;
+  height: 50px;
+  margin-left: 286px;
+  margin-top: -10px;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+ }
+ .elent2{
+  width: 20%;
+  height: 50px;
+  
+  margin-left: 725px;
+  margin-top: -a40px;
+  color: white;
+ }
+ .thongtin{
+  width: 100%;
+  margin-top: -100px; */
+}
+.thongtin{
+  margin-top: -200px;
+  position: absolute;
+}
+.thongtin h4{
+  font-size: 20px;
+  text-align: center;
+}
+
+.thongtin button{
+  width: 10%;
+  border: 1px solid;
+  border-radius: 16px;
+  margin-left: 650px;
+  background-color: #fefefe93;
+}
+.thongtin button:hover{
+  background-color: #fefefe30;
+}
+
+
+
+ /* end log */
+ .endment{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px; /* Khoảng cách giữa các cột */
+  margin-bottom: 100px; /* Khoảng cách dưới cùng */
+}
+
+.logo {
+  align-self: flex-start; /* Đặt logo ở trên cùng của cột */
+}
+
+.logo img {
+  max-width: 100px; /* Điều chỉnh kích thước của logo */
+  margin-top: 10px;
+}
+#tst{
+  /* margin-top: 500px; */
+  position: relative;
+}
+.products{
+
+}
+.footer-column{
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.products ul,
+.policy ul {
+  list-style: none;
+  padding: 0;
+}
+
+.products h3,
+.store-info h3,
+.policy h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.store-info p {
+  margin: 5px 0;
+}
+
+.policy li,
+.products li {
+  margin-bottom: 5px;
+ 
+}
+.policy li a{
+  list-style: none;
+  color: #000;
+  text-decoration: none;
+}
+.policy li:last-child,
+.products li:last-child {
+  margin-bottom: 0;
+}
+
+#inline{
+  border-bottom: 1px solid #000000; 
+  margin-top: -100px;
+}
+
+.boxend{
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+.boxend i{
+  font-size: 30px;
+}
+.rights{
+  height: 50px;
+  margin-top: -50px;
+  margin-left: 900px;
+  position: relative;
+}
+.rights i {
+  font-size: 25px;
+  margin-right: 40px; /* Điều chỉnh giá trị này để thay đổi khoảng cách giữa các biểu tượng */
+}
+
+
+.cardt {
+  width: fit-content;
+  height: fit-content;
+  /* background-color: rgb(238, 238, 238); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 15px;
+  gap: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  margin-top: -35px;
+  border-radius: 16px;
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+  border-radius: 20px;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

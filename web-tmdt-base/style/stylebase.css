@@ -4,6 +4,15 @@
     padding: 0%;
 
 }
+
+@media screen and (min-width: 768px) {
+  
+}
+
+
+@media screen and (max-width: 767px) {
+  
+}
 nav{
     position: relative;
 }
@@ -223,6 +232,7 @@ nav{
     background: url(/vhu-web-tmdt/imgs/Cyber.webp);
     z-index: 2;
 }
+
 
  /* <!--close --add img first-- --> */
 

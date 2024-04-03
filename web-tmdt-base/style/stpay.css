@@ -142,8 +142,13 @@ nav{
   .div{
     width: 100%;
     height: 700px;
-    background-color: rgba(213, 80, 80, 0.308);
+    background-color: rgba(34, 27, 27, 0.756);
+    color: white;
 }
+.div h1{
+  color: white;
+}
+
 #total-price{
     font-size: 20px;
     margin-left: 1200px;
@@ -211,7 +216,16 @@ nav{
     display: block;
     transition: 0.3s;
   }
-  
+  .overlay h1{
+    color: black;
+  }
+  .overlay  h2 {
+    color: #000;
+  }
+  .overlay h4{
+    color: #000;
+  }
+
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
   }
